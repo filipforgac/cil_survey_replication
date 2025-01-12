@@ -1,0 +1,11 @@
+python main_memo.py \
+    -model memo \
+    -init 10 \
+    -incre 10 \
+    -ms 3312 \
+    -net memo_resnet32 \
+    -p fair \
+    -d 3 \
+    --scheduler cosine \
+    --t_max 170 \
+    --train_base 

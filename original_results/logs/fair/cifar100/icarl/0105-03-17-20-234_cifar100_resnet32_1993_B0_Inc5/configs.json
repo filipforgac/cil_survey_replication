@@ -1,0 +1,23 @@
+{
+  "config": "./exps/icarl.json",
+  "convnet_type": "resnet32",
+  "csv_name": "cifar100_1993_resnet32_B0_Inc5",
+  "dataset": "cifar100",
+  "debug": false,
+  "device": [
+    2
+  ],
+  "exp_name": "0105-03-17-20-234_cifar100_resnet32_1993_B0_Inc5",
+  "fixed_memory": false,
+  "increment": 5,
+  "init_cls": 5,
+  "logfilename": "logs/fair/cifar100/icarl/0105-03-17-20-234_cifar100_resnet32_1993_B0_Inc5",
+  "memory_per_class": 20,
+  "memory_size": 13475,
+  "model_name": "icarl",
+  "prefix": "fair",
+  "seed": 1993,
+  "shuffle": true,
+  "skip": true,
+  "time_str": "0105-03-17-20-234"
+}

@@ -1,0 +1,303 @@
+2025-01-05 03:17:20,241 [trainer.py] => Time Str >>> 0105-03-17-20-234
+2025-01-05 03:17:20,302 [trainer.py] => prefix: fair
+2025-01-05 03:17:20,302 [trainer.py] => dataset: cifar100
+2025-01-05 03:17:20,302 [trainer.py] => memory_size: 13475
+2025-01-05 03:17:20,302 [trainer.py] => memory_per_class: 20
+2025-01-05 03:17:20,302 [trainer.py] => fixed_memory: False
+2025-01-05 03:17:20,303 [trainer.py] => shuffle: True
+2025-01-05 03:17:20,303 [trainer.py] => init_cls: 5
+2025-01-05 03:17:20,303 [trainer.py] => increment: 5
+2025-01-05 03:17:20,303 [trainer.py] => model_name: icarl
+2025-01-05 03:17:20,303 [trainer.py] => convnet_type: resnet32
+2025-01-05 03:17:20,303 [trainer.py] => device: [device(type='cuda', index=2)]
+2025-01-05 03:17:20,303 [trainer.py] => seed: 1993
+2025-01-05 03:17:20,303 [trainer.py] => debug: False
+2025-01-05 03:17:20,303 [trainer.py] => skip: True
+2025-01-05 03:17:20,303 [trainer.py] => config: ./exps/icarl.json
+2025-01-05 03:17:20,303 [trainer.py] => time_str: 0105-03-17-20-234
+2025-01-05 03:17:20,303 [trainer.py] => exp_name: 0105-03-17-20-234_cifar100_resnet32_1993_B0_Inc5
+2025-01-05 03:17:20,303 [trainer.py] => logfilename: logs/fair/cifar100/icarl/0105-03-17-20-234_cifar100_resnet32_1993_B0_Inc5
+2025-01-05 03:17:20,303 [trainer.py] => csv_name: cifar100_1993_resnet32_B0_Inc5
+2025-01-05 03:17:22,744 [data_manager.py] => [68, 56, 78, 8, 23, 84, 90, 65, 74, 76, 40, 89, 3, 92, 55, 9, 26, 80, 43, 38, 58, 70, 77, 1, 85, 19, 17, 50, 28, 53, 13, 81, 45, 82, 6, 59, 83, 16, 15, 44, 91, 41, 72, 60, 79, 52, 20, 10, 31, 54, 37, 95, 14, 71, 96, 98, 97, 2, 64, 66, 42, 22, 35, 86, 24, 34, 87, 21, 99, 0, 88, 27, 18, 94, 11, 12, 47, 25, 30, 46, 62, 69, 36, 61, 7, 63, 75, 5, 32, 4, 51, 48, 73, 93, 39, 67, 29, 49, 57, 33]
+2025-01-05 03:17:23,025 [trainer.py] => Start time:1736043443.0253816
+2025-01-05 03:17:23,025 [trainer.py] => All params: 463504
+2025-01-05 03:17:23,025 [trainer.py] => Trainable params: 463504
+2025-01-05 03:17:23,026 [icarl.py] => Learning on 0-5
+2025-01-05 03:17:30,270 [icarl.py] => Loaded_Test_Acc:96.4 Cur_Test_Acc:96.4
+2025-01-05 03:17:30,271 [base.py] => Reducing exemplars...(2695 per classes)
+2025-01-05 03:17:30,271 [base.py] => Constructing exemplars...(2695 per classes)
+2025-01-05 03:17:42,025 [icarl.py] => Exemplar size: 2500
+2025-01-05 03:17:42,026 [trainer.py] => CNN: {'total': np.float64(96.4), '00-09': np.float64(96.4), 'old': 0, 'new': np.float64(96.4)}
+2025-01-05 03:17:42,026 [trainer.py] => NME: {'total': np.float64(96.8), '00-09': np.float64(96.8), 'old': 0, 'new': np.float64(96.8)}
+2025-01-05 03:17:42,026 [trainer.py] => CNN top1 curve: [np.float64(96.4)]
+2025-01-05 03:17:42,026 [trainer.py] => CNN top5 curve: [np.float64(100.0)]
+2025-01-05 03:17:42,026 [trainer.py] => NME top1 curve: [np.float64(96.8)]
+2025-01-05 03:17:42,026 [trainer.py] => NME top5 curve: [np.float64(100.0)]
+
+2025-01-05 03:17:42,026 [trainer.py] => All params: 463829
+2025-01-05 03:17:42,026 [trainer.py] => Trainable params: 463829
+2025-01-05 03:17:42,028 [icarl.py] => Learning on 5-10
+2025-01-05 03:26:16,047 [icarl.py] => Task 1, Epoch 170/170 => Loss 0.541, Train_accy 99.28
+2025-01-05 03:26:16,053 [base.py] => Reducing exemplars...(1347 per classes)
+2025-01-05 03:26:20,370 [base.py] => Constructing exemplars...(1347 per classes)
+2025-01-05 03:26:33,008 [icarl.py] => Exemplar size: 5000
+2025-01-05 03:26:33,008 [trainer.py] => CNN: {'total': np.float64(89.5), '00-09': np.float64(89.5), 'old': np.float64(91.8), 'new': np.float64(87.2)}
+2025-01-05 03:26:33,008 [trainer.py] => NME: {'total': np.float64(89.5), '00-09': np.float64(89.5), 'old': np.float64(92.2), 'new': np.float64(86.8)}
+2025-01-05 03:26:33,008 [trainer.py] => CNN top1 curve: [np.float64(96.4), np.float64(89.5)]
+2025-01-05 03:26:33,008 [trainer.py] => CNN top5 curve: [np.float64(100.0), np.float64(99.6)]
+2025-01-05 03:26:33,008 [trainer.py] => NME top1 curve: [np.float64(96.8), np.float64(89.5)]
+2025-01-05 03:26:33,008 [trainer.py] => NME top5 curve: [np.float64(100.0), np.float64(99.5)]
+
+2025-01-05 03:26:33,008 [trainer.py] => All params: 464154
+2025-01-05 03:26:33,009 [trainer.py] => Trainable params: 464154
+2025-01-05 03:26:33,009 [icarl.py] => Learning on 10-15
+2025-01-05 03:36:36,078 [icarl.py] => Task 2, Epoch 170/170 => Loss 0.646, Train_accy 99.89
+2025-01-05 03:36:36,079 [base.py] => Reducing exemplars...(898 per classes)
+2025-01-05 03:36:44,928 [base.py] => Constructing exemplars...(898 per classes)
+2025-01-05 03:36:57,832 [icarl.py] => Exemplar size: 7500
+2025-01-05 03:36:57,833 [trainer.py] => CNN: {'total': np.float64(83.0), '00-09': np.float64(87.1), '10-19': np.float64(74.8), 'old': np.float64(87.1), 'new': np.float64(74.8)}
+2025-01-05 03:36:57,833 [trainer.py] => NME: {'total': np.float64(83.73), '00-09': np.float64(87.1), '10-19': np.float64(77.0), 'old': np.float64(87.1), 'new': np.float64(77.0)}
+2025-01-05 03:36:57,833 [trainer.py] => CNN top1 curve: [np.float64(96.4), np.float64(89.5), np.float64(83.0)]
+2025-01-05 03:36:57,833 [trainer.py] => CNN top5 curve: [np.float64(100.0), np.float64(99.6), np.float64(98.07)]
+2025-01-05 03:36:57,833 [trainer.py] => NME top1 curve: [np.float64(96.8), np.float64(89.5), np.float64(83.73)]
+2025-01-05 03:36:57,833 [trainer.py] => NME top5 curve: [np.float64(100.0), np.float64(99.5), np.float64(98.13)]
+
+2025-01-05 03:36:57,833 [trainer.py] => All params: 464479
+2025-01-05 03:36:57,833 [trainer.py] => Trainable params: 464479
+2025-01-05 03:36:57,834 [icarl.py] => Learning on 15-20
+2025-01-05 03:48:36,078 [icarl.py] => Task 3, Epoch 170/170 => Loss 0.657, Train_accy 99.82
+2025-01-05 03:48:36,079 [base.py] => Reducing exemplars...(673 per classes)
+2025-01-05 03:48:49,457 [base.py] => Constructing exemplars...(673 per classes)
+2025-01-05 03:49:01,778 [icarl.py] => Exemplar size: 10000
+2025-01-05 03:49:01,778 [trainer.py] => CNN: {'total': np.float64(79.95), '00-09': np.float64(86.0), '10-19': np.float64(73.9), 'old': np.float64(82.07), 'new': np.float64(73.6)}
+2025-01-05 03:49:01,778 [trainer.py] => NME: {'total': np.float64(79.85), '00-09': np.float64(86.2), '10-19': np.float64(73.5), 'old': np.float64(82.13), 'new': np.float64(73.0)}
+2025-01-05 03:49:01,779 [trainer.py] => CNN top1 curve: [np.float64(96.4), np.float64(89.5), np.float64(83.0), np.float64(79.95)]
+2025-01-05 03:49:01,779 [trainer.py] => CNN top5 curve: [np.float64(100.0), np.float64(99.6), np.float64(98.07), np.float64(96.55)]
+2025-01-05 03:49:01,779 [trainer.py] => NME top1 curve: [np.float64(96.8), np.float64(89.5), np.float64(83.73), np.float64(79.85)]
+2025-01-05 03:49:01,779 [trainer.py] => NME top5 curve: [np.float64(100.0), np.float64(99.5), np.float64(98.13), np.float64(96.9)]
+
+2025-01-05 03:49:01,779 [trainer.py] => All params: 464804
+2025-01-05 03:49:01,779 [trainer.py] => Trainable params: 464804
+2025-01-05 03:49:01,779 [icarl.py] => Learning on 20-25
+2025-01-05 04:02:06,975 [icarl.py] => Task 4, Epoch 170/170 => Loss 0.699, Train_accy 99.90
+2025-01-05 04:02:06,976 [base.py] => Reducing exemplars...(539 per classes)
+2025-01-05 04:02:25,268 [base.py] => Constructing exemplars...(539 per classes)
+2025-01-05 04:02:38,183 [icarl.py] => Exemplar size: 12500
+2025-01-05 04:02:38,184 [trainer.py] => CNN: {'total': np.float64(80.8), '00-09': np.float64(86.0), '10-19': np.float64(74.4), '20-29': np.float64(83.2), 'old': np.float64(80.2), 'new': np.float64(83.2)}
+2025-01-05 04:02:38,184 [trainer.py] => NME: {'total': np.float64(81.04), '00-09': np.float64(86.3), '10-19': np.float64(75.0), '20-29': np.float64(82.6), 'old': np.float64(80.65), 'new': np.float64(82.6)}
+2025-01-05 04:02:38,184 [trainer.py] => CNN top1 curve: [np.float64(96.4), np.float64(89.5), np.float64(83.0), np.float64(79.95), np.float64(80.8)]
+2025-01-05 04:02:38,184 [trainer.py] => CNN top5 curve: [np.float64(100.0), np.float64(99.6), np.float64(98.07), np.float64(96.55), np.float64(96.68)]
+2025-01-05 04:02:38,184 [trainer.py] => NME top1 curve: [np.float64(96.8), np.float64(89.5), np.float64(83.73), np.float64(79.85), np.float64(81.04)]
+2025-01-05 04:02:38,184 [trainer.py] => NME top5 curve: [np.float64(100.0), np.float64(99.5), np.float64(98.13), np.float64(96.9), np.float64(96.44)]
+
+2025-01-05 04:02:38,184 [trainer.py] => All params: 465129
+2025-01-05 04:02:38,184 [trainer.py] => Trainable params: 465129
+2025-01-05 04:02:38,185 [icarl.py] => Learning on 25-30
+2025-01-05 04:17:26,119 [icarl.py] => Task 5, Epoch 170/170 => Loss 0.743, Train_accy 99.75
+2025-01-05 04:17:26,120 [base.py] => Reducing exemplars...(449 per classes)
+2025-01-05 04:17:48,764 [base.py] => Constructing exemplars...(449 per classes)
+2025-01-05 04:18:02,212 [icarl.py] => Exemplar size: 13470
+2025-01-05 04:18:02,212 [trainer.py] => CNN: {'total': np.float64(80.63), '00-09': np.float64(84.5), '10-19': np.float64(74.5), '20-29': np.float64(82.9), 'old': np.float64(80.72), 'new': np.float64(80.2)}
+2025-01-05 04:18:02,212 [trainer.py] => NME: {'total': np.float64(80.57), '00-09': np.float64(84.4), '10-19': np.float64(75.0), '20-29': np.float64(82.3), 'old': np.float64(80.96), 'new': np.float64(78.6)}
+2025-01-05 04:18:02,212 [trainer.py] => CNN top1 curve: [np.float64(96.4), np.float64(89.5), np.float64(83.0), np.float64(79.95), np.float64(80.8), np.float64(80.63)]
+2025-01-05 04:18:02,212 [trainer.py] => CNN top5 curve: [np.float64(100.0), np.float64(99.6), np.float64(98.07), np.float64(96.55), np.float64(96.68), np.float64(96.3)]
+2025-01-05 04:18:02,212 [trainer.py] => NME top1 curve: [np.float64(96.8), np.float64(89.5), np.float64(83.73), np.float64(79.85), np.float64(81.04), np.float64(80.57)]
+2025-01-05 04:18:02,212 [trainer.py] => NME top5 curve: [np.float64(100.0), np.float64(99.5), np.float64(98.13), np.float64(96.9), np.float64(96.44), np.float64(96.2)]
+
+2025-01-05 04:18:02,212 [trainer.py] => All params: 465454
+2025-01-05 04:18:02,212 [trainer.py] => Trainable params: 465454
+2025-01-05 04:18:02,213 [icarl.py] => Learning on 30-35
+2025-01-05 04:33:48,763 [icarl.py] => Task 6, Epoch 170/170 => Loss 0.826, Train_accy 99.79
+2025-01-05 04:33:48,764 [base.py] => Reducing exemplars...(385 per classes)
+2025-01-05 04:34:15,806 [base.py] => Constructing exemplars...(385 per classes)
+2025-01-05 04:34:28,567 [icarl.py] => Exemplar size: 13475
+2025-01-05 04:34:28,568 [trainer.py] => CNN: {'total': np.float64(79.77), '00-09': np.float64(82.9), '10-19': np.float64(74.2), '20-29': np.float64(82.4), '30-39': np.float64(79.4), 'old': np.float64(79.83), 'new': np.float64(79.4)}
+2025-01-05 04:34:28,568 [trainer.py] => NME: {'total': np.float64(79.69), '00-09': np.float64(83.2), '10-19': np.float64(75.1), '20-29': np.float64(82.4), '30-39': np.float64(76.4), 'old': np.float64(80.23), 'new': np.float64(76.4)}
+2025-01-05 04:34:28,568 [trainer.py] => CNN top1 curve: [np.float64(96.4), np.float64(89.5), np.float64(83.0), np.float64(79.95), np.float64(80.8), np.float64(80.63), np.float64(79.77)]
+2025-01-05 04:34:28,568 [trainer.py] => CNN top5 curve: [np.float64(100.0), np.float64(99.6), np.float64(98.07), np.float64(96.55), np.float64(96.68), np.float64(96.3), np.float64(95.97)]
+2025-01-05 04:34:28,568 [trainer.py] => NME top1 curve: [np.float64(96.8), np.float64(89.5), np.float64(83.73), np.float64(79.85), np.float64(81.04), np.float64(80.57), np.float64(79.69)]
+2025-01-05 04:34:28,568 [trainer.py] => NME top5 curve: [np.float64(100.0), np.float64(99.5), np.float64(98.13), np.float64(96.9), np.float64(96.44), np.float64(96.2), np.float64(96.11)]
+
+2025-01-05 04:34:28,568 [trainer.py] => All params: 465779
+2025-01-05 04:34:28,568 [trainer.py] => Trainable params: 465779
+2025-01-05 04:34:28,569 [icarl.py] => Learning on 35-40
+2025-01-05 04:49:53,661 [icarl.py] => Task 7, Epoch 170/170 => Loss 0.937, Train_accy 99.85
+2025-01-05 04:49:53,662 [base.py] => Reducing exemplars...(336 per classes)
+2025-01-05 04:50:26,093 [base.py] => Constructing exemplars...(336 per classes)
+2025-01-05 04:50:39,379 [icarl.py] => Exemplar size: 13440
+2025-01-05 04:50:39,379 [trainer.py] => CNN: {'total': np.float64(77.53), '00-09': np.float64(81.2), '10-19': np.float64(72.3), '20-29': np.float64(79.5), '30-39': np.float64(77.1), 'old': np.float64(77.66), 'new': np.float64(76.6)}
+2025-01-05 04:50:39,379 [trainer.py] => NME: {'total': np.float64(76.75), '00-09': np.float64(80.2), '10-19': np.float64(72.7), '20-29': np.float64(79.7), '30-39': np.float64(74.4), 'old': np.float64(77.29), 'new': np.float64(73.0)}
+2025-01-05 04:50:39,379 [trainer.py] => CNN top1 curve: [np.float64(96.4), np.float64(89.5), np.float64(83.0), np.float64(79.95), np.float64(80.8), np.float64(80.63), np.float64(79.77), np.float64(77.53)]
+2025-01-05 04:50:39,379 [trainer.py] => CNN top5 curve: [np.float64(100.0), np.float64(99.6), np.float64(98.07), np.float64(96.55), np.float64(96.68), np.float64(96.3), np.float64(95.97), np.float64(95.62)]
+2025-01-05 04:50:39,379 [trainer.py] => NME top1 curve: [np.float64(96.8), np.float64(89.5), np.float64(83.73), np.float64(79.85), np.float64(81.04), np.float64(80.57), np.float64(79.69), np.float64(76.75)]
+2025-01-05 04:50:39,379 [trainer.py] => NME top5 curve: [np.float64(100.0), np.float64(99.5), np.float64(98.13), np.float64(96.9), np.float64(96.44), np.float64(96.2), np.float64(96.11), np.float64(95.45)]
+
+2025-01-05 04:50:39,380 [trainer.py] => All params: 466104
+2025-01-05 04:50:39,380 [trainer.py] => Trainable params: 466104
+2025-01-05 04:50:39,380 [icarl.py] => Learning on 40-45
+2025-01-05 05:06:02,570 [icarl.py] => Task 8, Epoch 170/170 => Loss 1.033, Train_accy 99.74
+2025-01-05 05:06:02,572 [base.py] => Reducing exemplars...(299 per classes)
+2025-01-05 05:06:38,347 [base.py] => Constructing exemplars...(299 per classes)
+2025-01-05 05:06:51,499 [icarl.py] => Exemplar size: 13455
+2025-01-05 05:06:51,499 [trainer.py] => CNN: {'total': np.float64(76.84), '00-09': np.float64(78.2), '10-19': np.float64(70.0), '20-29': np.float64(79.9), '30-39': np.float64(76.7), '40-49': np.float64(82.0), 'old': np.float64(76.2), 'new': np.float64(82.0)}
+2025-01-05 05:06:51,499 [trainer.py] => NME: {'total': np.float64(75.69), '00-09': np.float64(79.4), '10-19': np.float64(69.7), '20-29': np.float64(78.8), '30-39': np.float64(74.5), '40-49': np.float64(76.4), 'old': np.float64(75.6), 'new': np.float64(76.4)}
+2025-01-05 05:06:51,499 [trainer.py] => CNN top1 curve: [np.float64(96.4), np.float64(89.5), np.float64(83.0), np.float64(79.95), np.float64(80.8), np.float64(80.63), np.float64(79.77), np.float64(77.53), np.float64(76.84)]
+2025-01-05 05:06:51,499 [trainer.py] => CNN top5 curve: [np.float64(100.0), np.float64(99.6), np.float64(98.07), np.float64(96.55), np.float64(96.68), np.float64(96.3), np.float64(95.97), np.float64(95.62), np.float64(94.96)]
+2025-01-05 05:06:51,499 [trainer.py] => NME top1 curve: [np.float64(96.8), np.float64(89.5), np.float64(83.73), np.float64(79.85), np.float64(81.04), np.float64(80.57), np.float64(79.69), np.float64(76.75), np.float64(75.69)]
+2025-01-05 05:06:51,499 [trainer.py] => NME top5 curve: [np.float64(100.0), np.float64(99.5), np.float64(98.13), np.float64(96.9), np.float64(96.44), np.float64(96.2), np.float64(96.11), np.float64(95.45), np.float64(94.62)]
+
+2025-01-05 05:06:51,499 [trainer.py] => All params: 466429
+2025-01-05 05:06:51,499 [trainer.py] => Trainable params: 466429
+2025-01-05 05:06:51,500 [icarl.py] => Learning on 45-50
+2025-01-05 05:22:20,672 [icarl.py] => Task 9, Epoch 170/170 => Loss 0.992, Train_accy 99.80
+2025-01-05 05:22:20,673 [base.py] => Reducing exemplars...(269 per classes)
+2025-01-05 05:23:02,196 [base.py] => Constructing exemplars...(269 per classes)
+2025-01-05 05:23:15,752 [icarl.py] => Exemplar size: 13450
+2025-01-05 05:23:15,752 [trainer.py] => CNN: {'total': np.float64(76.12), '00-09': np.float64(79.4), '10-19': np.float64(67.8), '20-29': np.float64(77.5), '30-39': np.float64(73.7), '40-49': np.float64(82.2), 'old': np.float64(75.16), 'new': np.float64(84.8)}
+2025-01-05 05:23:15,752 [trainer.py] => NME: {'total': np.float64(75.12), '00-09': np.float64(78.9), '10-19': np.float64(68.0), '20-29': np.float64(77.5), '30-39': np.float64(72.4), '40-49': np.float64(78.8), 'old': np.float64(74.56), 'new': np.float64(80.2)}
+2025-01-05 05:23:15,752 [trainer.py] => CNN top1 curve: [np.float64(96.4), np.float64(89.5), np.float64(83.0), np.float64(79.95), np.float64(80.8), np.float64(80.63), np.float64(79.77), np.float64(77.53), np.float64(76.84), np.float64(76.12)]
+2025-01-05 05:23:15,752 [trainer.py] => CNN top5 curve: [np.float64(100.0), np.float64(99.6), np.float64(98.07), np.float64(96.55), np.float64(96.68), np.float64(96.3), np.float64(95.97), np.float64(95.62), np.float64(94.96), np.float64(94.4)]
+2025-01-05 05:23:15,752 [trainer.py] => NME top1 curve: [np.float64(96.8), np.float64(89.5), np.float64(83.73), np.float64(79.85), np.float64(81.04), np.float64(80.57), np.float64(79.69), np.float64(76.75), np.float64(75.69), np.float64(75.12)]
+2025-01-05 05:23:15,752 [trainer.py] => NME top5 curve: [np.float64(100.0), np.float64(99.5), np.float64(98.13), np.float64(96.9), np.float64(96.44), np.float64(96.2), np.float64(96.11), np.float64(95.45), np.float64(94.62), np.float64(94.12)]
+
+2025-01-05 05:23:15,752 [trainer.py] => All params: 466754
+2025-01-05 05:23:15,753 [trainer.py] => Trainable params: 466754
+2025-01-05 05:23:15,753 [icarl.py] => Learning on 50-55
+2025-01-05 05:38:40,536 [icarl.py] => Task 10, Epoch 170/170 => Loss 1.074, Train_accy 99.62
+2025-01-05 05:38:40,538 [base.py] => Reducing exemplars...(245 per classes)
+2025-01-05 05:39:25,359 [base.py] => Constructing exemplars...(245 per classes)
+2025-01-05 05:39:38,611 [icarl.py] => Exemplar size: 13475
+2025-01-05 05:39:38,612 [trainer.py] => CNN: {'total': np.float64(74.38), '00-09': np.float64(75.7), '10-19': np.float64(67.7), '20-29': np.float64(76.1), '30-39': np.float64(71.2), '40-49': np.float64(76.7), '50-59': np.float64(83.4), 'old': np.float64(73.48), 'new': np.float64(83.4)}
+2025-01-05 05:39:38,612 [trainer.py] => NME: {'total': np.float64(73.62), '00-09': np.float64(76.0), '10-19': np.float64(68.5), '20-29': np.float64(76.7), '30-39': np.float64(69.6), '40-49': np.float64(76.5), '50-59': np.float64(75.2), 'old': np.float64(73.46), 'new': np.float64(75.2)}
+2025-01-05 05:39:38,612 [trainer.py] => CNN top1 curve: [np.float64(96.4), np.float64(89.5), np.float64(83.0), np.float64(79.95), np.float64(80.8), np.float64(80.63), np.float64(79.77), np.float64(77.53), np.float64(76.84), np.float64(76.12), np.float64(74.38)]
+2025-01-05 05:39:38,612 [trainer.py] => CNN top5 curve: [np.float64(100.0), np.float64(99.6), np.float64(98.07), np.float64(96.55), np.float64(96.68), np.float64(96.3), np.float64(95.97), np.float64(95.62), np.float64(94.96), np.float64(94.4), np.float64(93.85)]
+2025-01-05 05:39:38,612 [trainer.py] => NME top1 curve: [np.float64(96.8), np.float64(89.5), np.float64(83.73), np.float64(79.85), np.float64(81.04), np.float64(80.57), np.float64(79.69), np.float64(76.75), np.float64(75.69), np.float64(75.12), np.float64(73.62)]
+2025-01-05 05:39:38,612 [trainer.py] => NME top5 curve: [np.float64(100.0), np.float64(99.5), np.float64(98.13), np.float64(96.9), np.float64(96.44), np.float64(96.2), np.float64(96.11), np.float64(95.45), np.float64(94.62), np.float64(94.12), np.float64(93.93)]
+
+2025-01-05 05:39:38,612 [trainer.py] => All params: 467079
+2025-01-05 05:39:38,612 [trainer.py] => Trainable params: 467079
+2025-01-05 05:39:38,613 [icarl.py] => Learning on 55-60
+2025-01-05 05:55:22,466 [icarl.py] => Task 11, Epoch 170/170 => Loss 1.197, Train_accy 99.66
+2025-01-05 05:55:22,468 [base.py] => Reducing exemplars...(224 per classes)
+2025-01-05 05:56:12,389 [base.py] => Constructing exemplars...(224 per classes)
+2025-01-05 05:56:26,056 [icarl.py] => Exemplar size: 13440
+2025-01-05 05:56:26,057 [trainer.py] => CNN: {'total': np.float64(73.22), '00-09': np.float64(76.7), '10-19': np.float64(65.8), '20-29': np.float64(73.3), '30-39': np.float64(71.7), '40-49': np.float64(75.2), '50-59': np.float64(76.6), 'old': np.float64(72.96), 'new': np.float64(76.0)}
+2025-01-05 05:56:26,057 [trainer.py] => NME: {'total': np.float64(72.13), '00-09': np.float64(75.4), '10-19': np.float64(66.9), '20-29': np.float64(74.7), '30-39': np.float64(69.8), '40-49': np.float64(75.1), '50-59': np.float64(70.9), 'old': np.float64(72.42), 'new': np.float64(69.0)}
+2025-01-05 05:56:26,057 [trainer.py] => CNN top1 curve: [np.float64(96.4), np.float64(89.5), np.float64(83.0), np.float64(79.95), np.float64(80.8), np.float64(80.63), np.float64(79.77), np.float64(77.53), np.float64(76.84), np.float64(76.12), np.float64(74.38), np.float64(73.22)]
+2025-01-05 05:56:26,057 [trainer.py] => CNN top5 curve: [np.float64(100.0), np.float64(99.6), np.float64(98.07), np.float64(96.55), np.float64(96.68), np.float64(96.3), np.float64(95.97), np.float64(95.62), np.float64(94.96), np.float64(94.4), np.float64(93.85), np.float64(93.0)]
+2025-01-05 05:56:26,057 [trainer.py] => NME top1 curve: [np.float64(96.8), np.float64(89.5), np.float64(83.73), np.float64(79.85), np.float64(81.04), np.float64(80.57), np.float64(79.69), np.float64(76.75), np.float64(75.69), np.float64(75.12), np.float64(73.62), np.float64(72.13)]
+2025-01-05 05:56:26,057 [trainer.py] => NME top5 curve: [np.float64(100.0), np.float64(99.5), np.float64(98.13), np.float64(96.9), np.float64(96.44), np.float64(96.2), np.float64(96.11), np.float64(95.45), np.float64(94.62), np.float64(94.12), np.float64(93.93), np.float64(93.03)]
+
+2025-01-05 05:56:26,057 [trainer.py] => All params: 467404
+2025-01-05 05:56:26,057 [trainer.py] => Trainable params: 467404
+2025-01-05 05:56:26,058 [icarl.py] => Learning on 60-65
+2025-01-05 06:12:02,645 [icarl.py] => Task 12, Epoch 170/170 => Loss 1.200, Train_accy 99.69
+2025-01-05 06:12:02,647 [base.py] => Reducing exemplars...(207 per classes)
+2025-01-05 06:12:56,093 [base.py] => Constructing exemplars...(207 per classes)
+2025-01-05 06:13:09,777 [icarl.py] => Exemplar size: 13455
+2025-01-05 06:13:09,777 [trainer.py] => CNN: {'total': np.float64(71.48), '00-09': np.float64(75.0), '10-19': np.float64(66.2), '20-29': np.float64(72.1), '30-39': np.float64(69.2), '40-49': np.float64(75.0), '50-59': np.float64(66.9), '60-69': np.float64(80.4), 'old': np.float64(70.73), 'new': np.float64(80.4)}
+2025-01-05 06:13:09,777 [trainer.py] => NME: {'total': np.float64(70.54), '00-09': np.float64(74.6), '10-19': np.float64(66.7), '20-29': np.float64(72.8), '30-39': np.float64(67.2), '40-49': np.float64(74.5), '50-59': np.float64(66.7), '60-69': np.float64(72.0), 'old': np.float64(70.42), 'new': np.float64(72.0)}
+2025-01-05 06:13:09,777 [trainer.py] => CNN top1 curve: [np.float64(96.4), np.float64(89.5), np.float64(83.0), np.float64(79.95), np.float64(80.8), np.float64(80.63), np.float64(79.77), np.float64(77.53), np.float64(76.84), np.float64(76.12), np.float64(74.38), np.float64(73.22), np.float64(71.48)]
+2025-01-05 06:13:09,777 [trainer.py] => CNN top5 curve: [np.float64(100.0), np.float64(99.6), np.float64(98.07), np.float64(96.55), np.float64(96.68), np.float64(96.3), np.float64(95.97), np.float64(95.62), np.float64(94.96), np.float64(94.4), np.float64(93.85), np.float64(93.0), np.float64(92.2)]
+2025-01-05 06:13:09,778 [trainer.py] => NME top1 curve: [np.float64(96.8), np.float64(89.5), np.float64(83.73), np.float64(79.85), np.float64(81.04), np.float64(80.57), np.float64(79.69), np.float64(76.75), np.float64(75.69), np.float64(75.12), np.float64(73.62), np.float64(72.13), np.float64(70.54)]
+2025-01-05 06:13:09,778 [trainer.py] => NME top5 curve: [np.float64(100.0), np.float64(99.5), np.float64(98.13), np.float64(96.9), np.float64(96.44), np.float64(96.2), np.float64(96.11), np.float64(95.45), np.float64(94.62), np.float64(94.12), np.float64(93.93), np.float64(93.03), np.float64(92.42)]
+
+2025-01-05 06:13:09,778 [trainer.py] => All params: 467729
+2025-01-05 06:13:09,778 [trainer.py] => Trainable params: 467729
+2025-01-05 06:13:09,779 [icarl.py] => Learning on 65-70
+2025-01-05 06:28:53,735 [icarl.py] => Task 13, Epoch 170/170 => Loss 1.226, Train_accy 99.71
+2025-01-05 06:28:53,736 [base.py] => Reducing exemplars...(192 per classes)
+2025-01-05 06:29:50,664 [base.py] => Constructing exemplars...(192 per classes)
+2025-01-05 06:30:04,507 [icarl.py] => Exemplar size: 13440
+2025-01-05 06:30:04,508 [trainer.py] => CNN: {'total': np.float64(71.19), '00-09': np.float64(74.1), '10-19': np.float64(64.1), '20-29': np.float64(73.6), '30-39': np.float64(66.6), '40-49': np.float64(73.5), '50-59': np.float64(66.6), '60-69': np.float64(79.8), 'old': np.float64(70.12), 'new': np.float64(85.0)}
+2025-01-05 06:30:04,508 [trainer.py] => NME: {'total': np.float64(69.89), '00-09': np.float64(72.1), '10-19': np.float64(64.2), '20-29': np.float64(74.2), '30-39': np.float64(65.4), '40-49': np.float64(75.1), '50-59': np.float64(67.1), '60-69': np.float64(71.1), 'old': np.float64(69.35), 'new': np.float64(76.8)}
+2025-01-05 06:30:04,508 [trainer.py] => CNN top1 curve: [np.float64(96.4), np.float64(89.5), np.float64(83.0), np.float64(79.95), np.float64(80.8), np.float64(80.63), np.float64(79.77), np.float64(77.53), np.float64(76.84), np.float64(76.12), np.float64(74.38), np.float64(73.22), np.float64(71.48), np.float64(71.19)]
+2025-01-05 06:30:04,508 [trainer.py] => CNN top5 curve: [np.float64(100.0), np.float64(99.6), np.float64(98.07), np.float64(96.55), np.float64(96.68), np.float64(96.3), np.float64(95.97), np.float64(95.62), np.float64(94.96), np.float64(94.4), np.float64(93.85), np.float64(93.0), np.float64(92.2), np.float64(91.26)]
+2025-01-05 06:30:04,508 [trainer.py] => NME top1 curve: [np.float64(96.8), np.float64(89.5), np.float64(83.73), np.float64(79.85), np.float64(81.04), np.float64(80.57), np.float64(79.69), np.float64(76.75), np.float64(75.69), np.float64(75.12), np.float64(73.62), np.float64(72.13), np.float64(70.54), np.float64(69.89)]
+2025-01-05 06:30:04,508 [trainer.py] => NME top5 curve: [np.float64(100.0), np.float64(99.5), np.float64(98.13), np.float64(96.9), np.float64(96.44), np.float64(96.2), np.float64(96.11), np.float64(95.45), np.float64(94.62), np.float64(94.12), np.float64(93.93), np.float64(93.03), np.float64(92.42), np.float64(91.46)]
+
+2025-01-05 06:30:04,508 [trainer.py] => All params: 468054
+2025-01-05 06:30:04,508 [trainer.py] => Trainable params: 468054
+2025-01-05 06:30:04,509 [icarl.py] => Learning on 70-75
+2025-01-05 06:45:45,439 [icarl.py] => Task 14, Epoch 170/170 => Loss 1.281, Train_accy 99.70
+2025-01-05 06:45:45,441 [base.py] => Reducing exemplars...(179 per classes)
+2025-01-05 06:46:50,383 [base.py] => Constructing exemplars...(179 per classes)
+2025-01-05 06:47:04,657 [icarl.py] => Exemplar size: 13425
+2025-01-05 06:47:04,657 [trainer.py] => CNN: {'total': np.float64(68.77), '00-09': np.float64(72.3), '10-19': np.float64(62.2), '20-29': np.float64(72.5), '30-39': np.float64(63.4), '40-49': np.float64(70.8), '50-59': np.float64(64.2), '60-69': np.float64(72.5), '70-79': np.float64(75.8), 'old': np.float64(68.27), 'new': np.float64(75.8)}
+2025-01-05 06:47:04,657 [trainer.py] => NME: {'total': np.float64(68.33), '00-09': np.float64(71.5), '10-19': np.float64(63.4), '20-29': np.float64(71.4), '30-39': np.float64(65.0), '40-49': np.float64(72.3), '50-59': np.float64(65.2), '60-69': np.float64(69.3), '70-79': np.float64(68.8), 'old': np.float64(68.3), 'new': np.float64(68.8)}
+2025-01-05 06:47:04,657 [trainer.py] => CNN top1 curve: [np.float64(96.4), np.float64(89.5), np.float64(83.0), np.float64(79.95), np.float64(80.8), np.float64(80.63), np.float64(79.77), np.float64(77.53), np.float64(76.84), np.float64(76.12), np.float64(74.38), np.float64(73.22), np.float64(71.48), np.float64(71.19), np.float64(68.77)]
+2025-01-05 06:47:04,657 [trainer.py] => CNN top5 curve: [np.float64(100.0), np.float64(99.6), np.float64(98.07), np.float64(96.55), np.float64(96.68), np.float64(96.3), np.float64(95.97), np.float64(95.62), np.float64(94.96), np.float64(94.4), np.float64(93.85), np.float64(93.0), np.float64(92.2), np.float64(91.26), np.float64(90.43)]
+2025-01-05 06:47:04,657 [trainer.py] => NME top1 curve: [np.float64(96.8), np.float64(89.5), np.float64(83.73), np.float64(79.85), np.float64(81.04), np.float64(80.57), np.float64(79.69), np.float64(76.75), np.float64(75.69), np.float64(75.12), np.float64(73.62), np.float64(72.13), np.float64(70.54), np.float64(69.89), np.float64(68.33)]
+2025-01-05 06:47:04,657 [trainer.py] => NME top5 curve: [np.float64(100.0), np.float64(99.5), np.float64(98.13), np.float64(96.9), np.float64(96.44), np.float64(96.2), np.float64(96.11), np.float64(95.45), np.float64(94.62), np.float64(94.12), np.float64(93.93), np.float64(93.03), np.float64(92.42), np.float64(91.46), np.float64(90.89)]
+
+2025-01-05 06:47:04,658 [trainer.py] => All params: 468379
+2025-01-05 06:47:04,658 [trainer.py] => Trainable params: 468379
+2025-01-05 06:47:04,658 [icarl.py] => Learning on 75-80
+2025-01-05 07:03:03,800 [icarl.py] => Task 15, Epoch 170/170 => Loss 1.266, Train_accy 99.57
+2025-01-05 07:03:03,801 [base.py] => Reducing exemplars...(168 per classes)
+2025-01-05 07:04:09,094 [base.py] => Constructing exemplars...(168 per classes)
+2025-01-05 07:04:22,401 [icarl.py] => Exemplar size: 13440
+2025-01-05 07:04:22,402 [trainer.py] => CNN: {'total': np.float64(67.47), '00-09': np.float64(71.2), '10-19': np.float64(61.0), '20-29': np.float64(72.1), '30-39': np.float64(62.5), '40-49': np.float64(68.4), '50-59': np.float64(58.6), '60-69': np.float64(72.5), '70-79': np.float64(73.5), 'old': np.float64(66.71), 'new': np.float64(79.0)}
+2025-01-05 07:04:22,402 [trainer.py] => NME: {'total': np.float64(66.84), '00-09': np.float64(70.5), '10-19': np.float64(62.6), '20-29': np.float64(72.0), '30-39': np.float64(62.9), '40-49': np.float64(70.0), '50-59': np.float64(61.1), '60-69': np.float64(69.5), '70-79': np.float64(66.1), 'old': np.float64(66.91), 'new': np.float64(65.8)}
+2025-01-05 07:04:22,402 [trainer.py] => CNN top1 curve: [np.float64(96.4), np.float64(89.5), np.float64(83.0), np.float64(79.95), np.float64(80.8), np.float64(80.63), np.float64(79.77), np.float64(77.53), np.float64(76.84), np.float64(76.12), np.float64(74.38), np.float64(73.22), np.float64(71.48), np.float64(71.19), np.float64(68.77), np.float64(67.47)]
+2025-01-05 07:04:22,402 [trainer.py] => CNN top5 curve: [np.float64(100.0), np.float64(99.6), np.float64(98.07), np.float64(96.55), np.float64(96.68), np.float64(96.3), np.float64(95.97), np.float64(95.62), np.float64(94.96), np.float64(94.4), np.float64(93.85), np.float64(93.0), np.float64(92.2), np.float64(91.26), np.float64(90.43), np.float64(90.05)]
+2025-01-05 07:04:22,402 [trainer.py] => NME top1 curve: [np.float64(96.8), np.float64(89.5), np.float64(83.73), np.float64(79.85), np.float64(81.04), np.float64(80.57), np.float64(79.69), np.float64(76.75), np.float64(75.69), np.float64(75.12), np.float64(73.62), np.float64(72.13), np.float64(70.54), np.float64(69.89), np.float64(68.33), np.float64(66.84)]
+2025-01-05 07:04:22,402 [trainer.py] => NME top5 curve: [np.float64(100.0), np.float64(99.5), np.float64(98.13), np.float64(96.9), np.float64(96.44), np.float64(96.2), np.float64(96.11), np.float64(95.45), np.float64(94.62), np.float64(94.12), np.float64(93.93), np.float64(93.03), np.float64(92.42), np.float64(91.46), np.float64(90.89), np.float64(89.96)]
+
+2025-01-05 07:04:22,402 [trainer.py] => All params: 468704
+2025-01-05 07:04:22,402 [trainer.py] => Trainable params: 468704
+2025-01-05 07:04:22,403 [icarl.py] => Learning on 80-85
+2025-01-05 07:19:54,084 [icarl.py] => Task 16, Epoch 170/170 => Loss 1.325, Train_accy 99.58
+2025-01-05 07:19:54,085 [base.py] => Reducing exemplars...(158 per classes)
+2025-01-05 07:21:03,338 [base.py] => Constructing exemplars...(158 per classes)
+2025-01-05 07:21:16,564 [icarl.py] => Exemplar size: 13430
+2025-01-05 07:21:16,564 [trainer.py] => CNN: {'total': np.float64(66.12), '00-09': np.float64(68.9), '10-19': np.float64(57.2), '20-29': np.float64(69.5), '30-39': np.float64(61.2), '40-49': np.float64(67.4), '50-59': np.float64(58.6), '60-69': np.float64(68.8), '70-79': np.float64(67.9), '80-89': np.float64(85.0), 'old': np.float64(64.94), 'new': np.float64(85.0)}
+2025-01-05 07:21:16,564 [trainer.py] => NME: {'total': np.float64(66.04), '00-09': np.float64(70.8), '10-19': np.float64(59.3), '20-29': np.float64(70.8), '30-39': np.float64(61.9), '40-49': np.float64(69.3), '50-59': np.float64(61.6), '60-69': np.float64(68.0), '70-79': np.float64(62.3), '80-89': np.float64(74.6), 'old': np.float64(65.5), 'new': np.float64(74.6)}
+2025-01-05 07:21:16,564 [trainer.py] => CNN top1 curve: [np.float64(96.4), np.float64(89.5), np.float64(83.0), np.float64(79.95), np.float64(80.8), np.float64(80.63), np.float64(79.77), np.float64(77.53), np.float64(76.84), np.float64(76.12), np.float64(74.38), np.float64(73.22), np.float64(71.48), np.float64(71.19), np.float64(68.77), np.float64(67.47), np.float64(66.12)]
+2025-01-05 07:21:16,564 [trainer.py] => CNN top5 curve: [np.float64(100.0), np.float64(99.6), np.float64(98.07), np.float64(96.55), np.float64(96.68), np.float64(96.3), np.float64(95.97), np.float64(95.62), np.float64(94.96), np.float64(94.4), np.float64(93.85), np.float64(93.0), np.float64(92.2), np.float64(91.26), np.float64(90.43), np.float64(90.05), np.float64(88.99)]
+2025-01-05 07:21:16,564 [trainer.py] => NME top1 curve: [np.float64(96.8), np.float64(89.5), np.float64(83.73), np.float64(79.85), np.float64(81.04), np.float64(80.57), np.float64(79.69), np.float64(76.75), np.float64(75.69), np.float64(75.12), np.float64(73.62), np.float64(72.13), np.float64(70.54), np.float64(69.89), np.float64(68.33), np.float64(66.84), np.float64(66.04)]
+2025-01-05 07:21:16,564 [trainer.py] => NME top5 curve: [np.float64(100.0), np.float64(99.5), np.float64(98.13), np.float64(96.9), np.float64(96.44), np.float64(96.2), np.float64(96.11), np.float64(95.45), np.float64(94.62), np.float64(94.12), np.float64(93.93), np.float64(93.03), np.float64(92.42), np.float64(91.46), np.float64(90.89), np.float64(89.96), np.float64(89.53)]
+
+2025-01-05 07:21:16,564 [trainer.py] => All params: 469029
+2025-01-05 07:21:16,565 [trainer.py] => Trainable params: 469029
+2025-01-05 07:21:16,565 [icarl.py] => Learning on 85-90
+2025-01-05 07:36:49,421 [icarl.py] => Task 17, Epoch 170/170 => Loss 1.415, Train_accy 99.64
+2025-01-05 07:36:49,422 [base.py] => Reducing exemplars...(149 per classes)
+2025-01-05 07:38:02,457 [base.py] => Constructing exemplars...(149 per classes)
+2025-01-05 07:38:15,897 [icarl.py] => Exemplar size: 13410
+2025-01-05 07:38:15,897 [trainer.py] => CNN: {'total': np.float64(64.57), '00-09': np.float64(67.5), '10-19': np.float64(55.4), '20-29': np.float64(68.2), '30-39': np.float64(59.0), '40-49': np.float64(65.0), '50-59': np.float64(58.5), '60-69': np.float64(68.2), '70-79': np.float64(62.5), '80-89': np.float64(76.8), 'old': np.float64(63.82), 'new': np.float64(77.2)}
+2025-01-05 07:38:15,897 [trainer.py] => NME: {'total': np.float64(64.58), '00-09': np.float64(67.3), '10-19': np.float64(58.7), '20-29': np.float64(70.0), '30-39': np.float64(61.5), '40-49': np.float64(67.1), '50-59': np.float64(60.4), '60-69': np.float64(68.3), '70-79': np.float64(61.0), '80-89': np.float64(66.9), 'old': np.float64(64.62), 'new': np.float64(63.8)}
+2025-01-05 07:38:15,897 [trainer.py] => CNN top1 curve: [np.float64(96.4), np.float64(89.5), np.float64(83.0), np.float64(79.95), np.float64(80.8), np.float64(80.63), np.float64(79.77), np.float64(77.53), np.float64(76.84), np.float64(76.12), np.float64(74.38), np.float64(73.22), np.float64(71.48), np.float64(71.19), np.float64(68.77), np.float64(67.47), np.float64(66.12), np.float64(64.57)]
+2025-01-05 07:38:15,897 [trainer.py] => CNN top5 curve: [np.float64(100.0), np.float64(99.6), np.float64(98.07), np.float64(96.55), np.float64(96.68), np.float64(96.3), np.float64(95.97), np.float64(95.62), np.float64(94.96), np.float64(94.4), np.float64(93.85), np.float64(93.0), np.float64(92.2), np.float64(91.26), np.float64(90.43), np.float64(90.05), np.float64(88.99), np.float64(88.2)]
+2025-01-05 07:38:15,897 [trainer.py] => NME top1 curve: [np.float64(96.8), np.float64(89.5), np.float64(83.73), np.float64(79.85), np.float64(81.04), np.float64(80.57), np.float64(79.69), np.float64(76.75), np.float64(75.69), np.float64(75.12), np.float64(73.62), np.float64(72.13), np.float64(70.54), np.float64(69.89), np.float64(68.33), np.float64(66.84), np.float64(66.04), np.float64(64.58)]
+2025-01-05 07:38:15,897 [trainer.py] => NME top5 curve: [np.float64(100.0), np.float64(99.5), np.float64(98.13), np.float64(96.9), np.float64(96.44), np.float64(96.2), np.float64(96.11), np.float64(95.45), np.float64(94.62), np.float64(94.12), np.float64(93.93), np.float64(93.03), np.float64(92.42), np.float64(91.46), np.float64(90.89), np.float64(89.96), np.float64(89.53), np.float64(88.88)]
+
+2025-01-05 07:38:15,898 [trainer.py] => All params: 469354
+2025-01-05 07:38:15,898 [trainer.py] => Trainable params: 469354
+2025-01-05 07:38:15,898 [icarl.py] => Learning on 90-95
+2025-01-05 07:53:47,025 [icarl.py] => Task 18, Epoch 170/170 => Loss 1.413, Train_accy 99.52
+2025-01-05 07:53:47,026 [base.py] => Reducing exemplars...(141 per classes)
+2025-01-05 07:55:03,010 [base.py] => Constructing exemplars...(141 per classes)
+2025-01-05 07:55:16,827 [icarl.py] => Exemplar size: 13395
+2025-01-05 07:55:16,828 [trainer.py] => CNN: {'total': np.float64(64.54), '00-09': np.float64(66.9), '10-19': np.float64(55.2), '20-29': np.float64(69.0), '30-39': np.float64(58.8), '40-49': np.float64(65.0), '50-59': np.float64(58.1), '60-69': np.float64(67.9), '70-79': np.float64(60.6), '80-89': np.float64(71.3), '90-99': np.float64(80.6), 'old': np.float64(63.64), 'new': np.float64(80.6)}
+2025-01-05 07:55:16,828 [trainer.py] => NME: {'total': np.float64(63.49), '00-09': np.float64(66.1), '10-19': np.float64(56.8), '20-29': np.float64(70.0), '30-39': np.float64(59.8), '40-49': np.float64(66.5), '50-59': np.float64(58.1), '60-69': np.float64(66.8), '70-79': np.float64(60.7), '80-89': np.float64(66.8), '90-99': np.float64(63.2), 'old': np.float64(63.51), 'new': np.float64(63.2)}
+2025-01-05 07:55:16,828 [trainer.py] => CNN top1 curve: [np.float64(96.4), np.float64(89.5), np.float64(83.0), np.float64(79.95), np.float64(80.8), np.float64(80.63), np.float64(79.77), np.float64(77.53), np.float64(76.84), np.float64(76.12), np.float64(74.38), np.float64(73.22), np.float64(71.48), np.float64(71.19), np.float64(68.77), np.float64(67.47), np.float64(66.12), np.float64(64.57), np.float64(64.54)]
+2025-01-05 07:55:16,828 [trainer.py] => CNN top5 curve: [np.float64(100.0), np.float64(99.6), np.float64(98.07), np.float64(96.55), np.float64(96.68), np.float64(96.3), np.float64(95.97), np.float64(95.62), np.float64(94.96), np.float64(94.4), np.float64(93.85), np.float64(93.0), np.float64(92.2), np.float64(91.26), np.float64(90.43), np.float64(90.05), np.float64(88.99), np.float64(88.2), np.float64(87.83)]
+2025-01-05 07:55:16,828 [trainer.py] => NME top1 curve: [np.float64(96.8), np.float64(89.5), np.float64(83.73), np.float64(79.85), np.float64(81.04), np.float64(80.57), np.float64(79.69), np.float64(76.75), np.float64(75.69), np.float64(75.12), np.float64(73.62), np.float64(72.13), np.float64(70.54), np.float64(69.89), np.float64(68.33), np.float64(66.84), np.float64(66.04), np.float64(64.58), np.float64(63.49)]
+2025-01-05 07:55:16,828 [trainer.py] => NME top5 curve: [np.float64(100.0), np.float64(99.5), np.float64(98.13), np.float64(96.9), np.float64(96.44), np.float64(96.2), np.float64(96.11), np.float64(95.45), np.float64(94.62), np.float64(94.12), np.float64(93.93), np.float64(93.03), np.float64(92.42), np.float64(91.46), np.float64(90.89), np.float64(89.96), np.float64(89.53), np.float64(88.88), np.float64(88.15)]
+
+2025-01-05 07:55:16,828 [trainer.py] => All params: 469679
+2025-01-05 07:55:16,828 [trainer.py] => Trainable params: 469679
+2025-01-05 07:55:16,829 [icarl.py] => Learning on 95-100
+2025-01-05 08:10:43,414 [icarl.py] => Task 19, Epoch 170/170 => Loss 1.452, Train_accy 99.59
+2025-01-05 08:10:43,416 [base.py] => Reducing exemplars...(134 per classes)
+2025-01-05 08:12:04,176 [base.py] => Constructing exemplars...(134 per classes)
+2025-01-05 08:12:17,340 [icarl.py] => Exemplar size: 13400
+2025-01-05 08:12:17,341 [trainer.py] => CNN: {'total': np.float64(62.99), '00-09': np.float64(65.6), '10-19': np.float64(54.8), '20-29': np.float64(67.3), '30-39': np.float64(56.1), '40-49': np.float64(64.3), '50-59': np.float64(55.4), '60-69': np.float64(65.5), '70-79': np.float64(58.4), '80-89': np.float64(68.8), '90-99': np.float64(73.7), 'old': np.float64(62.12), 'new': np.float64(79.6)}
+2025-01-05 08:12:17,341 [trainer.py] => NME: {'total': np.float64(62.58), '00-09': np.float64(64.9), '10-19': np.float64(55.8), '20-29': np.float64(70.7), '30-39': np.float64(58.6), '40-49': np.float64(67.5), '50-59': np.float64(57.0), '60-69': np.float64(65.5), '70-79': np.float64(59.2), '80-89': np.float64(66.0), '90-99': np.float64(60.6), 'old': np.float64(62.65), 'new': np.float64(61.2)}
+2025-01-05 08:12:17,341 [trainer.py] => CNN top1 curve: [np.float64(96.4), np.float64(89.5), np.float64(83.0), np.float64(79.95), np.float64(80.8), np.float64(80.63), np.float64(79.77), np.float64(77.53), np.float64(76.84), np.float64(76.12), np.float64(74.38), np.float64(73.22), np.float64(71.48), np.float64(71.19), np.float64(68.77), np.float64(67.47), np.float64(66.12), np.float64(64.57), np.float64(64.54), np.float64(62.99)]
+2025-01-05 08:12:17,341 [trainer.py] => CNN top5 curve: [np.float64(100.0), np.float64(99.6), np.float64(98.07), np.float64(96.55), np.float64(96.68), np.float64(96.3), np.float64(95.97), np.float64(95.62), np.float64(94.96), np.float64(94.4), np.float64(93.85), np.float64(93.0), np.float64(92.2), np.float64(91.26), np.float64(90.43), np.float64(90.05), np.float64(88.99), np.float64(88.2), np.float64(87.83), np.float64(86.47)]
+2025-01-05 08:12:17,341 [trainer.py] => NME top1 curve: [np.float64(96.8), np.float64(89.5), np.float64(83.73), np.float64(79.85), np.float64(81.04), np.float64(80.57), np.float64(79.69), np.float64(76.75), np.float64(75.69), np.float64(75.12), np.float64(73.62), np.float64(72.13), np.float64(70.54), np.float64(69.89), np.float64(68.33), np.float64(66.84), np.float64(66.04), np.float64(64.58), np.float64(63.49), np.float64(62.58)]
+2025-01-05 08:12:17,341 [trainer.py] => NME top5 curve: [np.float64(100.0), np.float64(99.5), np.float64(98.13), np.float64(96.9), np.float64(96.44), np.float64(96.2), np.float64(96.11), np.float64(95.45), np.float64(94.62), np.float64(94.12), np.float64(93.93), np.float64(93.03), np.float64(92.42), np.float64(91.46), np.float64(90.89), np.float64(89.96), np.float64(89.53), np.float64(88.88), np.float64(88.15), np.float64(87.27)]
+
+2025-01-05 08:12:17,341 [trainer.py] => End Time:1736061137.341323
