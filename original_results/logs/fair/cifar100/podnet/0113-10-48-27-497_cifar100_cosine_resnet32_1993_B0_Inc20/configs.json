@@ -1,0 +1,23 @@
+{
+  "config": "./exps/podnet.json",
+  "convnet_type": "cosine_resnet32",
+  "csv_name": "cifar100_1993_cosine_resnet32_B0_Inc20",
+  "dataset": "cifar100",
+  "debug": false,
+  "device": [
+    3
+  ],
+  "exp_name": "0113-10-48-27-497_cifar100_cosine_resnet32_1993_B0_Inc20",
+  "fixed_memory": false,
+  "increment": 20,
+  "init_cls": 20,
+  "logfilename": "logs/fair/cifar100/podnet/0113-10-48-27-497_cifar100_cosine_resnet32_1993_B0_Inc20",
+  "memory_per_class": 20,
+  "memory_size": 4414,
+  "model_name": "podnet",
+  "prefix": "fair",
+  "seed": 1993,
+  "shuffle": true,
+  "skip": false,
+  "time_str": "0113-10-48-27-497"
+}
